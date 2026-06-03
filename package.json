@@ -1,0 +1,32 @@
+{
+  "name": "legal-prep-studio",
+  "version": "1.0.0",
+  "description": "AI-powered Legal Exam & Interview Prep Studio for Indian Law",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:server && npm run build:client",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "start": "node server/dist/index.js",
+    "setup": "npm install && cd server && npm install && cd ../client && npm install && cd ..",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\""
+  },
+  "keywords": [
+    "legal",
+    "indian-law",
+    "interview-prep",
+    "exam-preparation",
+    "ai",
+    "claude",
+    "openai"
+  ],
+  "author": "Raul Thakur",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
