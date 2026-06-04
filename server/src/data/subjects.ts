@@ -145,18 +145,6 @@ export const LEGAL_SUBJECTS = {
       'Cloud Computing and Legal Issues'
     ]
   },
-  'Constitutional Law': {
-    name: 'Constitutional Law',
-    topics: [
-      'Fundamental Rights and Duties',
-      'Separation of Powers',
-      'Federalism',
-      'Parliamentary Sovereignty',
-      'Judicial Review',
-      'Emergency Provisions',
-      'Constitutional Amendments'
-    ]
-  },
   'BSA': {
     name: 'Bharatiya Sakshya Adhiniyam, 2023',
     topics: [
